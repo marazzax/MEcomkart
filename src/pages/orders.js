@@ -13,7 +13,7 @@ function Orders({ orders }) {
     <div>
       <Header />
       <main className="max-w-screen-lg mx-auto p-10">
-        <h1 className="text-3xl border-b mb-2 pb-1 border-purple-600 ">
+        <h1 className="text-3xl border-b mb-2 pb-1 border-blue-600 ">
           Your Orders
         </h1>
         {session ? (

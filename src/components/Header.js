@@ -21,7 +21,7 @@ function Header() {
         <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
           <Image
             onClick={() => router.push("/")}
-            src="https://iili.io/HcPnsVf.png"
+            src="https://iili.io/HcmfkqF.png"
             width={190}
             height={50}
             objectFit="contain"
@@ -30,7 +30,7 @@ function Header() {
         </div>
 
         {/* Search */}
-        <div className="hidden sm:flex item-center h-10 rounded-md flex-grow cursor-pointer bg-purple-600 hover:bg-purple-700">
+        <div className="hidden sm:flex item-center h-10 rounded-md flex-grow cursor-pointer bg-blue-600 hover:bg-blue-700">
           <input
             className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4"
             type="text"
@@ -55,7 +55,7 @@ function Header() {
             onClick={() => router.push("/checkout")}
             className="relative link flex items-center"
           >
-            <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-purple-600 text-center rounded-full text-black font-bold">
+            <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-blue-600 text-center rounded-full text-black font-bold">
               {items.length}
             </span>
             <ShoppingCartIcon className="h-10" />
