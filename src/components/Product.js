@@ -33,7 +33,7 @@ function Product({ id, title, price, description, category, image }) {
 
     //sending this product as an action  to the redex store ....    the basket slice
     dispatch(addToBasket(product));
-  };
+  }; 
 
   return (
     <div className="relative flex flex-col m-5 bg-white z-30 p-10">

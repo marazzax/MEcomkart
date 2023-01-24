@@ -80,6 +80,22 @@ function Header() {
         <p className="link hidden lg:inline-flex">Buy Again</p>
         <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
         <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+        <p
+          className="link hidden lg:inline-flex"
+          // onClick={() => router.push("/query.html")}
+        >
+          <a href="https://form.jotform.com/230213624134442" target="_blank">
+            Queries
+          </a>
+        </p>
+        <p
+          className="link hidden lg:inline-flex"
+          // onClick={() => router.push("/query.html")}
+        >
+          <a href="https://form.jotform.com/230213074144442" target="_blank">
+            Feedback
+          </a>
+        </p>
       </div>
     </header>
   );

@@ -25,7 +25,7 @@ export default async (req, res) => {
     payment_method_types: ["card"],
     shipping_options: [
       {
-        shipping_rate: "shr_1M2expSHGkpIuBR9CSMPFNQU",
+        shipping_rate: "shr_1MTjUWSFpaEoLlp9qPQPVPBH",
         // Not working, showing an axois error
         // shipping_rate_data: {
         //   fixed_amount: { amount: 0, currency: "inr" },
