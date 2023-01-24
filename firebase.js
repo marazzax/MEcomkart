@@ -10,7 +10,7 @@ const firebaseConfig = {
   storageBucket: `${process.env.Firebase_Config_storageBucket}`,
   messagingSenderId: `${process.env.Firebase_Config_messagingSenderId}`,
   appId: `${process.env.Firebase_Config_appId}`,
-  measurementId: `${process.env.Firebase_Config_measurementId}`,
+  // measurementId: `${process.env.Firebase_Config_measurementId}`,
 };
 
 const app = !firebase.apps.length
